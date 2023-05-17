@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-x {
+  background-color: #fff;
+  position: relative;
+}
+.nav-x {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #fff;
+}
+.container-x {
+  max-width: 1320px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+.navbar-x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+.logo-items-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.logo-items-x ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+}
+.item-link_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #525560;
+  flex: none;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.item-link_x:hover {
+  color: #0b0706;
+}
+.link-x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #ffffff;
+  flex: none;
+  flex-grow: 0;
+  padding: 12px 32px;
+  background: #1d2130;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.link-x:hover {
+  background-color: #fff;
+  color: #1d2130;
+}
+
+/* /////////////////////////// */
+
+.our-x {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 24px;
+  padding-top: 173px;
+  padding-bottom: 32px;
+  padding-left: 128px;
+}
+.our-h2_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1d2130;
+}
+.first-content-x {
+  padding: 32px 224px 96px 224px;
+}
+.first-h2-x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  color: #1d2130;
+  padding-bottom: 32px;
+}
+.first-p_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+  padding-bottom: 32px;
+}
+.first-img_x {
+  max-width: 762px;
+  border-radius: 12px;
+  padding-bottom: 48px;
+}
+.first-h3_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #1d2130;
+  padding-bottom: 16px;
+}
+.first-p1_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+  padding-bottom: 16px;
+}
+.first-ul-p2_x {
+  padding-bottom: 16px;
+  padding-left: 25px;
+}
+.first-li_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d2130;
+}
+.first-p3_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+}
+
+/* /////////////////////////// */
+
+.second-x {
+  background: #ebf0f9;
+}
+.second-content_x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 51px;
+  padding: 99px 128px 96px 128px;
+  flex-wrap: wrap;
+}
+.second-page_x {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 23px;
+}
+.second-h3_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  color: #1d2130;
+}
+.second-p_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+}
+
+/* //////////////////////////////////////// */
+
+.three-content-x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 96px 0;
+}
+.threes1-x {
+  background: url(../image/three1.png);
+  background-size: 411px;
+  padding: 80px 48px 48px 48px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.three-h3_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+.three-p_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  padding-bottom: 64px;
+}
+.three-link_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #1d2130;
+  padding: 16px 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.three-link_x:hover {
+  color: #fff;
+  background-color: #1d2130;
+}
+.threes1-x {
+  background: url(../image/three1.png);
+  background-size: 411px;
+  padding: 80px 48px 48px 48px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.threes2-x {
+  background: url(../image/three2.png);
+  background-size: 411px;
+  padding: 80px 48px 48px 48px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.threes3-x {
+  background: url(../image/three3.png);
+  background-size: 411px;
+  padding: 80px 48px 48px 48px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.fours-x {
+  padding: 96px 0;
+}
+.four-x {
+  background: url(../image/Image2.png);
+  background-repeat: no-repeat;
+  background-size: 1280px;
+  padding: 93px 0;
+  border-radius: 12px;
+}
+.four-h2_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 65px;
+}
+.four-content_x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.four-link1_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #ffffff;
+  padding: 16px 32px;
+  text-decoration: none;
+  background: #70c174;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.four-link1_x:hover {
+  color: #70c174;
+  background-color: #fff;
+}
+.four-link2_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #1d2130;
+  padding: 16px 32px;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transform: 0.3s;
+}
+.four-link2_x:hover {
+  color: #fff;
+  background-color: #1d2130;
+}
+
+/* ///////////////////////// */
+
+.five-x {
+  background: #0b0706;
+}
+.five-content-x {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 96px 0 98px 0;
+}
+.five-item_x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 88px;
+}
+.five-ul_x ul {
+  list-style-type: none;
+}
+.five-li_x {
+  padding-bottom: 24px;
+}
+.five-link_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  text-decoration: none;
+}
+.five-link1_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  text-decoration: none;
+}
+.five-h2_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #ffffff;
+  padding-bottom: 32px;
+}
+.five-page_x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.five-input_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(235, 240, 249, 0.3);
+  padding: 22px 200px 22px 24px;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+  border-radius: 4px;
+  outline: none;
+  background: #0b0706;
+}
+.five-a_x {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #1d2130;
+  text-decoration: none;
+  padding: 23px 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: -43px;
+}
+.five-a_x:hover {
+  color: #fff;
+  background-color: #1d2130;
+}
